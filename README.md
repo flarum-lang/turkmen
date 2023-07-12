@@ -19,7 +19,7 @@ This language pack contains Turkmen translations for Flarum (compatible with `1.
 You can install language pack using [Composer](https://getcomposer.org/):
 
 ```console
-composer require flarum-lang/turkmen
+composer require flarum-lang/turkmen:dev-master
 ```
 
 Then enable extension in admin panel of your Flarum.
