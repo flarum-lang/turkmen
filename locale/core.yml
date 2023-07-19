@@ -156,3 +156,27 @@ core:
         feature: Aýratynlyklar
         formatting: Formatirleme
         language: Diller
+  group:
+    admin: Admin
+    admins: Adminler
+    guest: Myhman
+    guests: Myhmanlar
+    member: Agza
+    members: Agzalar
+    mod: Tertip
+    mods: Tertipler
+  ref:
+    reset_your_password: 'Parolyňyzy täzeden düzmek'
+    restore: Dikeltmek
+    save_changes: 'Üýtgetmeleri ýatda saklamak'
+    search_users: 'Ulanyjylary gözlemek'
+    security: Howpsuzlyk
+    settings: Sazlamalar
+    sign_up: 'Hasaba girmek'
+    some_others: '{count, plural, one {# other} other {# others}}'
+    start_a_discussion: 'Diskussiýa başlatmak'
+    username: 'Ulanyjy ady'
+    users: Ulanyjylar
+    view: Görmek
+    write_a_reply: 'Jogap ýaz ...'
+    you: Siz
