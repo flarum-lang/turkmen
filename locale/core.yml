@@ -176,11 +176,44 @@ core:
       body: "Hormatly ulanyjy {username}!\n\nBu, Flarum e-poçta konfigurasiýaňyzyň dogry işleýändigini tassyklamak üçin synag e-poçta.\n\nBu siz bolsaňyz, bu e-poçta konfigurasiýaňyzyň işleýändigini aňladýar!\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
       subject: 'Flarum Email Test'
   forum:
+    settings:
+      title: '=> core.ref.settings'
+    sign_up:
+      dismiss_button: '=> core.ref.okay'
+      email_placeholder: '=> core.ref.email'
+      log_in_text: 'Eýýäm hasabyňyz barmy? <a> Giriş </a>'
+      password_placeholder: '=> core.ref.password'
+      submit_button: '=> core.ref.sign_up'
+      title: '=> core.ref.sign_up'
+      username_placeholder: '=> core.ref.username'
+      welcome_text: 'Hoş geldiňiz, {username}!'
+    user:
+      avatar_remove_button: '=> core.ref.remove'
+      avatar_upload_button: Ýüklemek
+      avatar_upload_tooltip: 'Täze awatar ýüklemek'
+      discussions_link: '=> core.ref.discussions'
+      in_discussion_text: '{discussion} - da'
+      joined_date_text: '{ago} goşuldy'
+      online_text: Onlaýn
+      posts_empty_text: 'Bu ýerde ýazgy ýok ýaly.'
+      posts_link: '=> core.ref.posts'
+      posts_load_more_button: '=> core.ref.load_more'
+      security_link: '=> core.ref.security'
+      settings_link: '=> core.ref.settings'
     user_controls:
+      button: Dolandyryşlar
       delete_button: '=> core.ref.delete'
+      delete_confirmation: 'Bu ulanyjyny pozmak isleýändigiňize ynanýarsyňyzmy? Ulanyjynyň ýazgylary pozulmaz.'
+      delete_error_message: '<i>{username} ({email})</i> ulanyjynyň öçürilmegi bolmady'
+      delete_success_message: 'Ulanyjy <i>{username} ({email})</i> öçürildi'
       edit_button: '=> core.ref.edit'
+      toggle_dropdown_accessible_label: 'Ulanyjy açylýan menýuny dolandyrmak'
     user_email_confirmation:
       alert_message: '=> core.ref.confirmation_email_sent'
+      resend_button: 'Tassyklama e-poçta ibermek'
+      sent_message: Ugratmak
+    welcome_hero:
+      hide: 'Hoş geldiňiz habaryny gizläň'
   group:
     admin: Admin
     admins: Adminler
@@ -191,10 +224,13 @@ core:
     mod: Tertip
     mods: Tertipler
   lib:
+    alert:
+      dismiss_a11y_label: 'Duýduryşy ýatyrmak'
     badge:
       hidden_tooltip: Gizlenen
     data_segment:
       label: '{label}:'
+    debug_button: Debug
     dropdown:
       toggle_dropdown_accessible_label: 'Açylýan menýuny üýtgediň'
     edit_user:
