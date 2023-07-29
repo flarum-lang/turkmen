@@ -156,7 +156,19 @@ core:
         feature: Aýratynlyklar
         formatting: Formatirleme
         language: Diller
+  api:
+    invalid_filter_type:
+      must_be_numeric_message: '{filter} süzgüç sanly bolmaly.'
+      must_not_be_array_message: '{filter} süzgüji massiw bolmaly däldir.'
+      must_not_be_multidimensional_array_message: '{filter} süzgüji köp ölçegli massiw bolmaly däldir.'
+    invalid_username_message: 'Ulanyjy adynda diňe harplar, sanlar we çyzgylar bolup biler.'
   email:
+    activate_account:
+      body: "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} -da e-poçta salgysy üsti bilen hasaba girdi .\n\nBu siz bolsaňyz, aşakdaky ssylka basyň we e-poçtaňyz tassyklanar:\n{url}\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
+      subject: 'Täze hasabyňyzy işjeňleşdiriň'
+    confirm_email:
+      body: "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} -da e-poçta salgysyny şu ada üýtgetdi.\n\nBu siz bolsaňyz, aşakdaky salga basyň we e-poçtaňyz tassyklanar:\n{url}\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
+      subject: 'Täze e-poçta salgyňyzy tassyklaň'
     reset_password:
       body: "Hormatly ulanyjy {username}!\n\nKimdir biri (siz diýip umyt edýäris!) {forum} hasabyňyz üçin \"ýatdan çykarylan parol\" haýyşyny iberdi.\n\nBu siz bolsaňyz, parolyňyzy täzeden düzmek üçin aşakdaky ssylka basyň:\n{url}\n\nParolyňyzy üýtgetmek islemeýän bolsaňyz, şu e-poçta üns bermäň we hiç zat bolmaz.\n"
       subject: '=> core.ref.reset_your_password'
@@ -179,9 +191,18 @@ core:
     mod: Tertip
     mods: Tertipler
   lib:
+    badge:
+      hidden_tooltip: Gizlenen
+    data_segment:
+      label: '{label}:'
+    dropdown:
+      toggle_dropdown_accessible_label: 'Açylýan menýuny üýtgediň'
     edit_user:
+      activate_button: 'Ulanyjyny işjeňleşdiriň'
       email_heading: '=> core.ref.email'
       email_label: '=> core.ref.email'
+      groups_heading: Toparlar
+      nothing_available: 'Bu ulanyjyny redaktirlemäge rugsat berilmeýär.'
       password_heading: '=> core.ref.password'
       password_label: '=> core.ref.password'
       set_password_label: 'Täze parol düzüň'
@@ -189,10 +210,23 @@ core:
       title: '=> core.ref.edit_user'
       username_heading: '=> core.ref.username'
       username_label: '=> core.ref.username'
+    error:
+      circular_dependencies_message: 'Tegelek baglylyklar ýüze çykaryldy: {extensions}. Abort. Giňeldişleriň birini öçüriň we gaýtadan synanyşyň.'
+      dependent_extensions_message: 'Aşakdaky garaşly giňeltmeler öçürilýänçä {extension} öçürip bolmaýar: {extensions}'
+      extension_initialiation_failed_message: '{extension} başlap bilmedi, has giňişleýin maglumat üçin brauzer konsolyny barlaň.'
+      generic_cross_origin_message: 'Ups! Haçdan gelip çykmak haýyşy ugradylanda bir zat ýalňyş gitdi. Sahypany täzeläň we gaýtadan synanyşyň.'
+      generic_message: 'Ups! Bir zat nädogry boldy. Sahypany täzeden açyň we gaýtadan synanyşyň.'
+      missing_dependencies_message: 'Aşakdaky garaşlylyklar işjeň bolýança {extension} işledip bolmaýar: {extensions}'
+      not_found_message: 'Talap edilýän çeşme tapylmady.'
+      payload_too_large_message: 'Islegiňiziň ýüki gaty ulydy.'
+      permission_denied_message: 'Muny etmäge rugsadyňyz ýok.'
+      rate_limit_exceeded_message: 'Biraz çalt gidýärsiňiz. Birnäçe sekuntdan soň gaýtadan synanyşmagyňyzy haýyş edýäris.'
+      render_failed_message: 'Bagyşlaň, bu mazmuny görkezenimizde ýalňyşlyk bilen ýüzbe-ýüz bolduk. Ulanyjy bolsaňyz, soňrak synanyşyň. Dolandyryjy bolsaňyz, has giňişleýin maglumat üçin gündelik faýllaryna göz aýlaň.'
     loading_indicator:
       accessible_label: '=> core.ref.loading'
     meta_titles:
-      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Page # - {forumName}}}'
+      with_page_title: '{pageNumber, plural, =1 {{pageTitle} - {forumName}} other {{pageTitle}: Sahypa # - {forumName}}}'
+      without_page_title: '{pageNumber, plural, =1 {{forumName}} other {Sahypa # - {forumName}}}'
     modal:
       close: Ýapmak
     nav:
@@ -276,17 +310,31 @@ core:
       text: 'Hasabyňyzyň e-poçtaňyzy tassyklamak üçin aşakdaky düwmä basyň.'
       title: '=> core.ref.confirm_email'
     content:
+      javascript_disabled_message: 'Bu sahypa, JavaScript açyk, häzirki zaman brauzerinde dogry görünýär.'
+      load_error_message: 'Bu sahypanyň doly wersiýasyny ýüklemekçi bolanda bir zat ýalňyş gitdi. Ýalňyşlygy düzetmek üçin bu sahypany täzeläp görüň.'
       loading_text: '=> core.ref.loading'
     discussion:
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
+    error:
+      csrf_token_mismatch: 'Uzak wagtlap hereketsiz bolduňyz.'
+      csrf_token_mismatch_return_link: 'Gaýtadan synanyşmak üçin yza dolanmak'
+      invalid_confirmation_token: 'Bu tassyklama ssylkasy eýýäm ulanyldy ýa-da nädogry.'
+      not_authenticated: 'Bu sahypa girmäge rugsadyňyz ýok. Gireniňizden soň gaýtadan synanyşyň.'
+      not_found: 'Soraýan sahypaňyz tapylmady.'
+      not_found_return_link: '{forum} - a dolanmak'
+      permission_denied: 'Bu sahypa girmäge rugsadyňyz ýok.'
+      unknown: 'Bu sahypany ýüklenilende ýalňyşlyk ýüze çykdy.'
     index:
       all_discussions_heading: '=> core.ref.all_discussions'
       next_page_button: '=> core.ref.next_page'
       previous_page_button: '=> core.ref.previous_page'
     log_out:
       log_out_button: '=> core.ref.log_out'
+      log_out_confirmation: '{forum} - dan çykmak isleýändigiňize ynanýarsyňyzmy?'
       title: '=> core.ref.log_out'
     reset_password:
+      confirm_password_label: 'Täze paroly tassyklamak'
+      new_password_label: 'Täze parol'
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.reset_your_password'
