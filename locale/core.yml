@@ -70,6 +70,7 @@ core:
       title: 'Dolandyryş paneli'
       tools_button: Gurallar
     debug-warning:
+      detail: "Wheň <code>debug</code> mode is active, Flarum will rebuild its <code>JavaScript</code> and <code>CSS</code> assets on every request, and could also potentially leak other information, such as database secrets, environment variables, etc.\n\nIt is highly recommended to disable <code>debug</code> in your <code>config.php</code> file in production. See <link>Flarum docs</link> for more information.\n"
       label: 'Debug tertibi işjeň'
     edit_css:
       customize_text: 'Flarumyň <a>adaty stilleriniň</a> üstüne öz LESS/CSS koduňyzy goşup forumyňyzyň keşbini üýtgediň.'
@@ -156,6 +157,86 @@ core:
         feature: Aýratynlyklar
         formatting: Formatirleme
         language: Diller
+        moderation: Moderasiýa
+        other: 'Beýleki giňeltmeler'
+        theme: Temalar
+      dashboard_button: '=> core.admin.dashboard.title'
+      dashboard_title: '=> core.admin.dashboard.description'
+      email_button: '=> core.ref.email'
+      email_title: '=> core.admin.email.description'
+      permissions_button: '=> core.admin.permissions.title'
+      permissions_title: '=> core.admin.permissions.description'
+      search_placeholder: 'Giňeldişleri gözläň'
+      userlist_button: '=> core.admin.users.title'
+      userlist_title: '=> core.admin.users.description'
+    permissions:
+      allow_hide_own_posts_label: 'Öz ýazgylaryňyzy pozmaga rugsat bermek'
+      allow_post_editing_label: 'Post redaktirlemegine rugsat bermek'
+      allow_renaming_label: 'Adyny üýtgetmäge rugsat bermek'
+      create_access_token_label: 'Giriş tokeny döretmek'
+      create_heading: Döretmek
+      delete_discussions_forever_label: 'Gürrüňleri hemişeleýin pozmak'
+      delete_discussions_label: 'Gürrüňleri pozmak'
+      delete_posts_forever_label: 'Postlary hemişeleýin pozmak'
+      delete_posts_label: 'Postlary pozmak'
+      description: 'Kim görüp we näme edip biljekdigini sazlamak'
+      edit_posts_label: 'Postlary redaktirlemek'
+      edit_users_credentials_label: 'Ulanyjy şahsyýet maglumatlaryny redaktirlemek'
+      edit_users_groups_label: 'Ulanyjy toparlaryny redaktirlemek'
+      edit_users_label: 'Ulanyjy atributlaryny redaktirlemek'
+      global_heading: Global
+      moderate_access_tokens_label: 'Giriş tokenlary moderirlemek'
+      moderate_heading: moderirlemek
+      new_group_button: 'Täze topar'
+      participate_heading: Gatnaşmak
+      post_without_throttle_label: 'Garaşman birnäçe gezek jogap bermek'
+      read_heading: Okamak
+      rename_discussions_label: 'Gürrüňleriň adyny üýygetmek'
+      reply_to_discussions_label: 'Gürrüňlere jogap bermek'
+      search_users_label: '=> core.ref.search_users'
+      sign_up_label: 'Hasaba gimek'
+      start_discussions_label: 'Gürrüňleri başlatmak'
+      title: Rugsatlar
+      view_forum_label: 'Forumy görüň (gürrüňler we ulanyjylar)'
+      view_hidden_groups_label: 'Gizlin topar nyşanlaryny görüň'
+      view_last_seen_at_label: 'Ulanyjyny soňky gezek gören wagtyňyzy hemişe görüň'
+      view_post_ips_label: 'Postlaryň IP adreslerini görmek'
+    permissions_controls:
+      allow_indefinitely_button: Elbetde
+      allow_never_button: '=> core.ref.never'
+      allow_some_minutes_button: '{count, plural, one {# minutlyk} other {# minutlyk}}'
+      allow_ten_minutes_button: '10 minutlyk'
+      allow_until_reply_button: 'Indiki jogaba çenli'
+      everyone_button: Hemmeler
+      members_button: '=> core.group.members'
+      signup_closed_button: Ýapyk
+      signup_open_button: Açyk
+    settings:
+      saved_message: 'Üýtgeşmeleriňiz ýazdyryldy.'
+      submit_button: '=> core.ref.save_changes'
+    upload_image:
+      remove_button: '=> core.ref.remove'
+      upload_button: 'Surat saýlaň ...'
+    users:
+      create_user_button: 'Täze ulanyjy'
+      description: 'Forumyňyzdaky ähli ulanyjylaryň sahypasy.'
+      grid:
+        columns:
+          display_name:
+            title: 'Ady görkezmek'
+          edit_user:
+            button: '=> core.ref.edit'
+            title: '=> core.ref.edit_user'
+            tooltip: '{username} redaktirlemek'
+          email:
+            title: '=> core.ref.email'
+            visibility_hide: 'E-poçta salgysyny gizlemek'
+            visibility_show: 'E-poçta salgysyny görkezmek'
+          group_badges:
+            no_badges: Hiç
+            title: Toparlar
+          join_time:
+            title: Goşuldy
   api:
     invalid_filter_type:
       must_be_numeric_message: '{filter} süzgüç sanly bolmaly.'
@@ -176,7 +257,23 @@ core:
       body: "Hormatly ulanyjy {username}!\n\nBu, Flarum e-poçta konfigurasiýaňyzyň dogry işleýändigini tassyklamak üçin synag e-poçta.\n\nBu siz bolsaňyz, bu e-poçta konfigurasiýaňyzyň işleýändigini aňladýar!\n\nBu siz däl bolsaňyz, bu e-poçta üns bermäň.\n"
       subject: 'Flarum Email Test'
   forum:
+    change_email:
+      confirmation_message: '=> core.ref.confirmation_email_sent'
+      dismiss_button: '=> core.ref.okay'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.change_email'
+    change_password:
+      title: '=> core.ref.change_password'
+    composer_discussion:
+      title: '=> core.ref.start_a_discussion'
+    composer_edit:
+      edited_message: Redaktirlendi.
+      post_link: 'Post #{number} {discussion} ýerleşýär'
+      submit_button: '=> core.ref.save_changes'
+      view_button: '=> core.ref.view'
     composer_reply:
+      body_placeholder: '=> core.ref.write_a_reply'
+      discard_confirmation: 'Jogabyňyzy ýazmadyňyz. Taşlamak isleýärsiňizmi?'
       posted_message: 'Jogabyňyz iberildi'
       submit_button: 'Jogap bermek'
       view_button: '=> core.ref.view'
