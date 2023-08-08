@@ -240,7 +240,7 @@ core:
           user_id:
             title: ID
           username:
-            profile_link_tooltip: '{username} profiline syn et'
+            profile_link_tooltip: '{username} profilini gör'
             title: '=> core.ref.username'
         invalid_column_content: Nädogry
       pagination:
@@ -252,7 +252,7 @@ core:
         page_counter: '{total}-yň/iň {current}-njy/nji sahypasy'
       search_placeholder: '=> core.ref.search_users'
       title: '=> core.ref.users'
-      total_users: 'Umumy ulanyjy: {count}'
+      total_users: 'Umumy ulanyjy sany: {count}'
   api:
     invalid_filter_type:
       must_be_numeric_message: '{filter} filter sanly bolmaly.'
@@ -553,7 +553,7 @@ core:
       three_text: '{first}, {second}, we {third}'
       two_text: '{first} we {second}'
     username:
-      deleted_text: '[bozuldy]'
+      deleted_text: '[pozuldy]'
   ref:
     all_discussions: 'Hemme gürrüňler'
     change_email: 'E-poçtany üýtgetmek'
