@@ -49,6 +49,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`flarum/approval`](https://github.com/flarum/approval) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/tk/) |
 
 <!-- flarum-extensions-list-stop -->
 
@@ -59,6 +60,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/fof-pwned-passwords/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pwned-passwords/tk/) |
 
 <!-- fof-extensions-list-stop -->
 
@@ -69,6 +71,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/the-turk-stickiest/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-stickiest/tk/) |
 
 <!-- various-extensions-list-stop -->
 
