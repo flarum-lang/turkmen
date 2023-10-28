@@ -6,8 +6,8 @@ flarum-approval:
   admin:
     permissions:
       approve_posts_label: 'Postlary tassykla'
-      reply_without_approval_label: 'Gürrüňe tassyklamazdan jogap ber'
-      start_discussions_without_approval_label: 'Gürrüňi tassyklamazdan başlat'
+      reply_without_approval_label: 'Gürrüňlere tassyklamazdan jogap ber'
+      start_discussions_without_approval_label: 'Gürrüňleri tassyklamazdan başla'
   forum:
     badge:
       awaiting_approval_tooltip: '=> flarum-approval.ref.awaiting_approval'
@@ -16,4 +16,4 @@ flarum-approval:
     post_controls:
       approve_button: Tassykla
   ref:
-    awaiting_approval: 'Tassyklamaga garaşylýar'
+    awaiting_approval: 'Tassyklama garaşylýar'
