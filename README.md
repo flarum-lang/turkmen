@@ -50,6 +50,7 @@ php flarum cache:clear
 | Extension | Status |
 | --- | --- |
 | [`flarum/approval`](https://github.com/flarum/approval) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-approval/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-approval/tk/) |
+| [`flarum/emoji`](https://github.com/flarum/emoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/tk/) |
 
 <!-- flarum-extensions-list-stop -->
 
