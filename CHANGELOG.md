@@ -14,6 +14,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`flarum/approval`](https://github.com/flarum/approval)
+* [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 
