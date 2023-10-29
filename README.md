@@ -55,6 +55,9 @@ php flarum cache:clear
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/tk/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/tk/) |
 | [`flarum/likes`](https://github.com/flarum/likes) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/tk/) |
+| [`flarum/lock`](https://github.com/flarum/lock) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-lock/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-lock/tk/) |
+| [`flarum/markdown`](https://github.com/flarum/markdown) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-markdown/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-markdown/tk/) |
+| [`flarum/sticky`](https://github.com/flarum/sticky) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-sticky/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-sticky/tk/) |
 
 <!-- flarum-extensions-list-stop -->
 
