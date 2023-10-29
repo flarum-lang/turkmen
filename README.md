@@ -54,6 +54,7 @@ php flarum cache:clear
 | [`flarum/bbcode`](https://github.com/flarum/bbcode) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-bbcode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-bbcode/tk/) |
 | [`flarum/emoji`](https://github.com/flarum/emoji) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-emoji/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-emoji/tk/) |
 | [`flarum/flags`](https://github.com/flarum/flags) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-flags/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-flags/tk/) |
+| [`flarum/likes`](https://github.com/flarum/likes) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/flarum-likes/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/flarum-likes/tk/) |
 
 <!-- flarum-extensions-list-stop -->
 
