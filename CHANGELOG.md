@@ -19,6 +19,9 @@ CHANGELOG
 * [`flarum/emoji`](https://github.com/flarum/emoji)
 * [`flarum/flags`](https://github.com/flarum/flags)
 * [`flarum/likes`](https://github.com/flarum/likes)
+* [`flarum/lock`](https://github.com/flarum/lock)
+* [`flarum/markdown`](https://github.com/flarum/markdown)
+* [`flarum/sticky`](https://github.com/flarum/sticky)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 
