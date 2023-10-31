@@ -6,16 +6,36 @@ flarum-suspend:
   admin:
     permissions:
       suspend_users_label: 'Ulanyjylary blokirlemek'
+  email:
+    no_reason_given: 'Bu blogyň sebäbi görkezilmedik.'
+    suspended:
+      body: "Salam {recipient_display_name},\n\nSiz indiki sebäp üçin blok edildiňiz:\n\n---\n{suspension_message}\n---\n"
+      subject: 'Siziň hasabyňyz blok edilen'
+    unsuspended:
+      body: "Salam {recipient_display_name},\n\nSiz blokdan açyldyňyz. Siz foruma aşaky salgy boýunça geçip bilersiňiz:\n\n{forum_url}\n"
+      subject: 'Siziň hasabyňyz blokdan açyldy'
   forum:
     notifications:
-      user_suspended_indefinite_text: 'Siz näbelli wagtlyk blok edildiňiz'
+      user_suspended_indefinite_text: 'Siz hemişelik blok edildiňiz'
       user_suspended_text: 'Siz {timeReadable} wagtlyk blok edildiňiz'
       user_unsuspended_text: 'Sizi blokdan aýyrdylar'
     suspend_user:
       display_message: 'Ulanyjy üçin habar görkeziň'
-      indefinitely_label: 'Näbelli wagtlyk blok edilen'
+      indefinitely_label: 'Hemişelik blok edilen'
+      limited_time_days_text: ' gün'
+      limited_time_label: 'Wagtlaýyn blok edilen...'
+      not_suspended_label: 'Blok edilmedik'
+      placeholder_optional: 'Hökmäny däl'
+      reason: 'Blogyň sebäbi'
+      status_heading: 'Blok ýagdaýy'
+      submit_button: '=> core.ref.save_changes'
+      title: '{username} blok et'
     suspension_info:
       dismiss_button: Ýap
-      indefinite: 'Bu näbelli wagtlyk blok'
+      indefinite: 'Bu hemişelik blok'
       limited: 'Bu blok {date} wagta çenli işjeň bolar'
       title: 'Bu hasap blok edilen'
+    user_badge:
+      suspended_tooltip: 'Blok edilen'
+    user_controls:
+      suspend_button: 'Blok et'
