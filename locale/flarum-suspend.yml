@@ -29,13 +29,13 @@ flarum-suspend:
       reason: 'Blogyň sebäbi'
       status_heading: 'Blok ýagdaýy'
       submit_button: '=> core.ref.save_changes'
-      title: '{username} blok et'
+      title: '{username} blokirlemek'
     suspension_info:
       dismiss_button: Ýap
       indefinite: 'Bu hemişelik blok'
       limited: 'Bu blok {date} wagta çenli işjeň bolar'
       title: 'Bu hasap blok edilen'
     user_badge:
-      suspended_tooltip: 'Blok edilen'
+      suspended_tooltip: Blokirlenen
     user_controls:
       suspend_button: 'Blok et'
