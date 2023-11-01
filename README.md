@@ -86,6 +86,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/askvortsov-categories/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/askvortsov-categories/tk/) |
 | [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/the-turk-stickiest/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/the-turk-stickiest/tk/) |
 
 <!-- various-extensions-list-stop -->
