@@ -13,6 +13,7 @@ CHANGELOG
 
 **Added support for new extensions**:
 
+* [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/approval`](https://github.com/flarum/approval)
 * [`flarum/bbcode`](https://github.com/flarum/bbcode)
