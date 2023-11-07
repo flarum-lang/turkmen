@@ -30,6 +30,7 @@ CHANGELOG
 * [`flarum/subscriptions`](https://github.com/flarum/subscriptions)
 * [`flarum/suspend`](https://github.com/flarum/suspend)
 * [`flarum/tags`](https://github.com/flarum/tags)
+* [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 
