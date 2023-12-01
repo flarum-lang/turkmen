@@ -11,6 +11,16 @@ validation:
   alpha_dash: ':attribute diňe harplardan, sanlardan, kese we aşaky çyzyklardan ybarat bolmaly.'
   alpha_num: ':attribute diňe harplardan we sanlardan ybarat bolmaly.'
   array: ':attribute massiw bolmaly.'
+  attributes:
+    content: kontent
+    email: e-poçta
+    name_plural: 'köplük at'
+    name_singular: 'ýeke at'
+    password: parol
+    tag_count_primary: 'esasy kategoriýalaryň sany'
+    tag_count_secondary: 'ikilenji kategoriýalaryň sany'
+    title: sözbaşy
+    username: 'ulanyjy ady'
   before: ':attribute :date seneden öň bolmaly.'
   before_or_equal: ':attribute :date senä deň ýa-da öň bolmaly.'
   between:
@@ -38,7 +48,7 @@ validation:
   gt:
     array: ':attribute, :value elementden köp bolmaly.'
     file: ':attribute, :value kilobaýtdan köp bolmaly.'
-    numeric: ':attribute, :value bahasyndan köp bolmaly.'
+    numeric: ':attribute, :value bahadan köp bolmaly.'
     string: ':attribute, :value nyşandan köp bolmaly.'
   gte:
     array: ':attribute, :value element ýa-da ondan köp bolmaly.'
@@ -56,7 +66,7 @@ validation:
   lt:
     array: ':attribute, :value sany elementden az bolmaly.'
     file: ':attribute, :value kilobaýtdan kiçi bolmaly.'
-    numeric: ':attribute, :value bahasyndan kiçi bolmaly.'
+    numeric: ':attribute, :value bahadan kiçi bolmaly.'
     string: ':attribute, :value nyşandan az bolmaly.'
   lte:
     array: ':attribute, :value elementden köp bolmaly däl.'
@@ -82,11 +92,26 @@ validation:
   password: 'Nädogry parol.'
   present: ':attribute meýdany bolmaly.'
   prohibited: ':attribute meýdany gadagan.'
+  prohibited_if: ':other görkeziji :value deň bolanda, :attribute meýdany gadagan.'
+  prohibited_unless: ':other görkeziji :value deň bolmasa, :attribute meýdany gadagan.'
   regex: ':attribute formaty nädogry.'
-  required: ':attribute meýdany doldurylmagy hökman.'
-  required_if: ':other :value görkezijä deň bolanda, :attribute meýdany doldurylmagy hökman.'
-  required_unless: ':other :value görkezijä deň bolmasa, :attribute meýdany doldurylmagy hökman.'
-  required_with: ':value görkezijileriň biri bolanda, :attribute meýdany doldurylmagy hökman.'
-  required_with_all: ':values bar bolsa, :attribute meýdany hökman.'
-  required_without: ':values ýok bolsa, :attribute meýdany hökman.'
-  required_without_all: ':values hiçisi ýok bolsa, :attribute meýdany hökman.'
+  required: ':attribute meýdany hökman doldurylmaly.'
+  required_if: ':other :value görkezijä deň bolanda, :attribute meýdany hökman doldurylmaly.'
+  required_unless: ':other :value görkezijä deň bolmasa, :attribute meýdany hökman doldurylmaly.'
+  required_with: ':value görkezijileriň biri bolanda, :attribute meýdany hökman doldurylmaly.'
+  required_with_all: ':value görkezijileriň biri bolanda, :attribute meýdany hökman doldurylmaly.'
+  required_without: ':values görkezijiler bolmasa, :attribute meýdany hökman doldurylmaly.'
+  required_without_all: ':values görkezijileriň hiçisi ýok bolanda, :attribute meýdany hökman doldurylmaly.'
+  same: ':attribute we :other deň bolmaly.'
+  size:
+    array: ':attribute, :size elementlerden ybarat bolmaly.'
+    file: ':attribute, :size kilobaýt bolmaly.'
+    numeric: ':attribute, :size deň bolmaly.'
+    string: ':attribute, :size nyşan bolmaly.'
+  starts_with: ':attribute şularyň biri bilen başlamaly: :values.'
+  string: ':attribute setir bolmaly.'
+  timezone: ':attribute dogry wagt guşaklygy bolmaly.'
+  unique: ':attribute eýýäm eýelenen.'
+  uploaded: ':attribute ýüklenilmedi.'
+  url: ':attribute formaty nädogry.'
+  uuid: ':attribute dogry UUID bolmaly.'
