@@ -33,6 +33,7 @@ CHANGELOG
 * [`flarum/tags`](https://github.com/flarum/tags)
 * [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode)
 * [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords)
+* [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
