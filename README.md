@@ -77,6 +77,7 @@ php flarum cache:clear
 | --- | --- |
 | [`fof/nightmode`](https://github.com/FriendsOfFlarum/nightmode) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/fof-nightmode/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-nightmode/tk/) |
 | [`fof/pwned-passwords`](https://github.com/FriendsOfFlarum/pwned-passwords) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/fof-pwned-passwords/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-pwned-passwords/tk/) |
+| [`fof/upload`](https://github.com/FriendsOfFlarum/upload) | [![Translation status](https://weblate.rob006.net/widgets/flarum/tk/fof-upload/svg-badge.svg)](https://weblate.rob006.net/projects/flarum/fof-upload/tk/) |
 
 <!-- fof-extensions-list-stop -->
 
