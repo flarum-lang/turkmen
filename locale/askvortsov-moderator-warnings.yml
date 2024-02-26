@@ -24,3 +24,32 @@ askvortsov-moderator-warnings:
       warning_no_strikes: '{mod_username} straýksyz duýduryş berdi'
     post_controls:
       warning_button: 'Duýduryş ber'
+    settings:
+      warning_notification_label: 'Moderator duýduryş berdi'
+    user:
+      warnings: 'Moderator duýduryşlary'
+    validation:
+      invalid_strike_count: 'Straýklaryň sany 0 we 5 aralygynda bitewi san bolmaly.'
+      public_comment_required: 'Hökman açyk kommentariýa bermeli.'
+    warning_controls:
+      delete_button: Aýyr
+      delete_forever_button: 'Hemişelik Boz'
+      restore_button: Dikelt
+    warning_list:
+      add_button: 'Täze Duýduryş'
+      no_warnings: 'Hiç hili duýduryş ýok.'
+      warnings: '{strikes, plural, one {Moderator Duýduryşlary: # Straýk berilen} other {Moderator Duýduryşlary: # Straýklar berilen}}'
+      warnings_no_strikes: 'Moderator Duýduryşlary: Hiç hili straýk berilmedik'
+    warning_list_item:
+      linked_post: 'Agzalan Post'
+      list_item_heading: '{strikes, plural, one {<strong>#</strong> straýk, {time}} other {<strong>#</strong> straýklar, {time}}}'
+      list_item_heading_hidden: '{strikes, plural, one {<strong>#</strong> straýk, {time} <strong>(bozulan)</strong>} other {<strong>#</strong> straýklar, {time} <strong>(bozulan)</strong>}}'
+      private_comment: 'Diňe Moderatora görünýän teswir'
+      public_comment: Duýduryş
+    warning_modal:
+      confirmation_message: 'Siziň duýduryşyňyz ýatda saklandy. Sahypany täzelemek mümkin gerek bolar.'
+      heading: '<strong>{username}</strong> duýdyr'
+      private_comment_heading: 'Näme üçin <strong>{username}</strong> bu duýduryşy alýar? Bu teswirler DIŇE moderatorlara görüner.'
+      public_comment_heading: 'Näme üçin <strong>{username}</strong> bu duýduryşy alýar? Bu teswirler ulanyja we moderatorlara görüner.'
+      strikes_heading: 'Näçe sany straýk hasap edilmeli?'
+      submit_button: 'Duýduryşy ýatda sakla'
