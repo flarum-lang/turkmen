@@ -15,6 +15,7 @@ CHANGELOG
 **Added support for new extensions**:
 
 * [`askvortsov/flarum-categories`](https://github.com/askvortsov1/flarum-categories)
+* [`askvortsov/flarum-moderator-warnings`](https://github.com/askvortsov1/flarum-moderator-warnings)
 * [`flarum/akismet`](https://github.com/flarum/akismet)
 * [`flarum/approval`](https://github.com/flarum/approval)
 * [`flarum/bbcode`](https://github.com/flarum/bbcode)
@@ -36,6 +37,7 @@ CHANGELOG
 * [`fof/upload`](https://github.com/FriendsOfFlarum/upload)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
+* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 
 
