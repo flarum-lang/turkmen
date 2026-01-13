@@ -40,7 +40,7 @@ CHANGELOG
 * [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views)
 * [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views)
 * [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover)
-* [`the-turk/flarum-flamoji`](https://github.com/the-turk/flarum-flamoji)
+* `the-turk-flamoji`
 * [`the-turk/flarum-stickiest`](https://github.com/the-turk/flarum-stickiest)
 
 
