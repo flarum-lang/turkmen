@@ -89,6 +89,7 @@ php flarum cache:clear
 
 | Extension | Status |
 | --- | --- |
+| [`michaelbelgium/flarum-discussion-views`](https://github.com/MichaelBelgium/flarum-discussion-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/tk/michaelbelgium-discussion-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-discussion-views/tk/) |
 | [`michaelbelgium/flarum-profile-views`](https://github.com/MichaelBelgium/flarum-profile-views) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/tk/michaelbelgium-profile-views/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/michaelbelgium-profile-views/tk/) |
 | [`sycho/flarum-profile-cover`](https://github.com/SychO9/flarum-profile-cover) | [![Translation status](https://weblate.rob006.net/widgets/flarum2/tk/sycho-profile-cover/svg-badge.svg)](https://weblate.rob006.net/projects/flarum2/sycho-profile-cover/tk/) |
 
